@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-      <main>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <main>
         <form id="f1">
 
-                <label for="firstName_f1">Full Name <sup>*</sup></label>
+            <label for="firstName_f1">Full Name <sup>*</sup></label>
             <input id="firstName_f1" type="text" name="firstName" placeholder="First" required/>
             <input id="lastName_f1" type="text" name="lastName" placeholder="Last" required/>
 
@@ -29,18 +31,35 @@
                 </option>
             </select>
             <label for="message_f1">Your Message <sup>*</sup></label>
-            <textarea id="message_f1"required>
+            <textarea id="message_f1" required>
             </textarea>
-            <input type="submit" value="Submit"/>
+            <input type="submit" value="Submit" />
         </form>
 
         <form id="f2">
-
-          <label for="name_f2">Name <sup>*</sup></label>
-          <input id="name_f2" type="text" name="name_f2" required/>
-          <label for="email_f2">Email <sup>*</sup></label>
-          <input id="email_f2" type="email" name="email" required/>
-
+            <h1>Provide your information</h1>
+            <hr />
+            <label for="name_f2">Name <sup>*</sup></label>
+            <input id="name_f2" type="text" name="name_f2" required/>
+            <label for="email_f2">Email <sup>*</sup></label>
+            <input id="email_f2" type="email" name="email" required/>
+            <label for="phone_f2">Telephone</label>
+            <span id="phone_f2" ><input id="1" /><input id="2"/><input id="3"/></span>
+            <label for="subject_f2">Subject</label>
+            <select id="subject_f2" required>
+              <option value="">
+                  select your subject
+              </option>
+              <option value="1">
+                  Advertise
+              </option>
+              <option value="2">
+                  General
+              </option>
+          </select>
+            <label for="message_f2">Message <sup>*</sup></label>
+            <textarea id="message_f2"></textarea>
+            <input type="submit" value="Submit" />
         </form>
         <form id="f3">
 
@@ -67,6 +86,7 @@
 
         </form>
 
-      </main>
-    </body>
+    </main>
+</body>
+
 </html>

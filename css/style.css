@@ -5,12 +5,13 @@ body{
 main {
   width: 50%;
   margin: 1% auto;
-  background-color: white;
+
 }
 
 form
 {
-
+    background-color: white;
+    margin-bottom: 20px;
 }
 
 /******** form 1 **********/
@@ -74,3 +75,26 @@ form
 }
 
 /******** form 2 **********/
+#f2
+{
+    padding-left: 5%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 0.5%;
+}
+#name_f2, #email_f2, #phone_f2, #f2 select, #f2 textarea {
+    position: static;
+    display: inline-block;
+    box-sizing: content-box;
+    margin-bottom: 1em;
+    margin-top:0.2em;
+    border: solid 1px grey;
+    width: 75%;
+
+}
+
+#f2 label {
+  font-weight: bold;
+  display: inline-block;
+  width: 23%;
+}
