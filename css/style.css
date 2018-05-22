@@ -1,16 +1,38 @@
 body{
 
 }
+
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+
 form
 {
-        margin: 0 auto;
-        width: 50%;
-        box-sizing: border-box;
+
 }
+
 #f1
 {
     padding-left: 5%;
-    padding-right: 30%;
+    padding-right: 20%;
     padding-top: 5%;
     padding-bottom: 0.5%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.first_last {
+  display: block;
+}
+
+#f1 :nth-child(1n+1) {
+  display: inline-block;
+  color: red;
+}
+
+sup {
+  /* display: inline; */
 }

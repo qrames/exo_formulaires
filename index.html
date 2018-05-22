@@ -7,11 +7,14 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
+      <main>
         <form id="f1">
-            <label for="firstName_f1">Full Name </label><span>*</span>
+            <div class="first_last">
+            <label for="firstName_f1">Full Name </label><sup>*</sup>
             <input id="firstName_f1" type="text" name="firstName" placeholder="First" required/>
             <input id="lastName_f1" type="text" name="lastName" placeholder="Last" required/>
-            <label>Email </label><span>*</span>
+          </div>
+            <label>Email </label><sup>*</sup>
             <input type="email" name="email" required/>
             <label for="subject_f1">Subject</label>
             <select id="subject_f1" required>
@@ -25,7 +28,7 @@
                     General
                 </option>
             </select>
-            <label for="message_f1">Your Message </label><span>*</span>
+            <label for="message_f1">Your Message </label><sup>*</sup>
             <textarea id="message_f1"required>
             </textarea>
             <input id="submit_btn_f1" type="submit" value="Submit"/>
@@ -57,5 +60,7 @@
         <form id="f10">
 
         </form>
+
+      </main>
     </body>
 </html>
