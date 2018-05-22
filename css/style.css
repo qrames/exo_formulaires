@@ -1,10 +1,11 @@
 body{
-
+  background-color: rgb(126, 126, 126);
 }
 
 main {
   width: 50%;
-  margin: 0 auto;
+  margin: 1% auto;
+  background-color: white;
 }
 
 form
@@ -12,6 +13,7 @@ form
 
 }
 
+/******** form 1 **********/
 #f1
 {
     padding-left: 5%;
@@ -20,19 +22,30 @@ form
     padding-bottom: 0.5%;
 }
 
-label {
+#f1 label {
   font-weight: bold;
-}
-
-.first_last {
   display: block;
+
+}
+#f1 sup
+{
+    color: red;
+}
+#email_f1, #subject_f1, #message_f1
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+#firstName_f1, #lastName_f1
+{
+    box-sizing: border-box;
+    width: 49%;
 }
 
-#f1 :nth-child(1n+1) {
-  display: inline-block;
-  color: red;
+#f1 select
+{
+    background-color: rgb(139, 139, 139);
+    padding: 0.5em;
+    color: black;
 }
-
-sup {
-  /* display: inline; */
-}
+/******** form 2 **********/

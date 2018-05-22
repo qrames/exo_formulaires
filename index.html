@@ -9,13 +9,13 @@
     <body>
       <main>
         <form id="f1">
-            <div class="first_last">
-            <label for="firstName_f1">Full Name </label><sup>*</sup>
+
+                <label for="firstName_f1">Full Name <sup>*</sup></label>
             <input id="firstName_f1" type="text" name="firstName" placeholder="First" required/>
             <input id="lastName_f1" type="text" name="lastName" placeholder="Last" required/>
-          </div>
-            <label>Email </label><sup>*</sup>
-            <input type="email" name="email" required/>
+
+            <label for="email_f1">Email <sup>*</sup></label>
+            <input id="email_f1" type="email" name="email" required/>
             <label for="subject_f1">Subject</label>
             <select id="subject_f1" required>
                 <option value="">
@@ -28,7 +28,7 @@
                     General
                 </option>
             </select>
-            <label for="message_f1">Your Message </label><sup>*</sup>
+            <label for="message_f1">Your Message <sup>*</sup></label>
             <textarea id="message_f1"required>
             </textarea>
             <input id="submit_btn_f1" type="submit" value="Submit"/>
