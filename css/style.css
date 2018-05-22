@@ -17,7 +17,7 @@ form
 #f1
 {
     padding-left: 5%;
-    padding-right: 20%;
+    padding-right: 30%;
     padding-top: 5%;
     padding-bottom: 0.5%;
 }
@@ -45,7 +45,32 @@ form
 #f1 select
 {
     background-color: rgb(139, 139, 139);
-    padding: 0.5em;
+    padding: 0.75em;
     color: black;
 }
+
+#f1 input, #f1 select, #f1 textarea {
+  margin-bottom: 1em;
+  margin-top:0.2em;
+  border-radius: 0;
+  border: solid 1px grey;
+
+}
+
+#f1 input {
+  padding:0.75em;
+}
+
+#f1 textarea {
+  max-width: 100%;
+  min-height: 10em;
+}
+
+#f1 input[type="submit"] {
+  padding: 0.5em 1em;
+  color: white;
+  background-color: rgb(93, 131, 148);
+  margin-bottom: 0;
+}
+
 /******** form 2 **********/
