@@ -160,3 +160,23 @@ sup {
   margin-right: 40%;
   background-color: rgb(198, 198, 198);
 }
+
+/******** form 3 **********/
+#f3{
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    padding-right: 20%;
+    padding-left: 2%;
+}
+
+#f3 fieldset {
+    background-color: #fff4f4;
+    border: 2px solid #ffd2d2;
+    padding-left: 5%;
+    border-radius: 10px;
+    color: #f17fb1;
+    font-weight: bold;
+}
+#f3 fieldset:first-child {
+    margin-bottom: 1em;
+}

@@ -44,7 +44,7 @@
             <label for="email_f2">Email <sup>*</sup></label>
             <input id="email_f2" type="email" name="email" required/>
             <label for="phone_f2">Telephone</label>
-            <span id="phone_f2" ><input type="tel" name="phoneF2_1" maxlength="3"/>-<input type="tel" name="phoneF2_2"  maxlength="3"/>-<input type="tel" name="phoneF2_3"  maxlength="3"/></span>
+            <span id="phone_f2"><input type="tel" name="phoneF2_1" maxlength="3"/>-<input type="tel" name="phoneF2_2"  maxlength="3"/>-<input type="tel" name="phoneF2_3"  maxlength="3"/></span>
             <label for="subject_f2">Regarding</label>
             <select id="subject_f2" required>
               <option value="">
@@ -64,31 +64,34 @@
 
         </form>
         <form id="f3">
-          <fieldset>
-            <legend>Personal</legend>
-            <label for="name_f3">Name <sup>*</sup></label>
-            <input id="name_f3" type="text" name="name_f3" required/>
-            <label for="email_f2">Email <sup>*</sup></label>
-            <input id="email_f2" type="email" name="email" required/>
-            <label for="phone_f2">Telephone</label>
-            <span id="phone_f2" ><input type="tel" name="phoneF2_1" maxlength="3"/>-<input type="tel" name="phoneF2_2"  maxlength="3"/>-<input type="tel" name="phoneF2_3"  maxlength="3"/></span>
-            <label for="subject_f2">Regarding</label>
-            <select id="subject_f2" required>
-              <option value="">
-                  select your subject
-              </option>
-              <option value="1">
-                  Advertise
-              </option>
-              <option value="2">
-                  General
-              </option>
-          </select>
-          </fieldset>
+            <fieldset>
+                <legend>Personal</legend>
+                <label for="name_f3">Name <sup>*</sup></label>
+                <input id="name_f3" type="text" name="name_f3" required/>
+                <label for="email_f3">Email <sup>*</sup></label>
+                <input id="email_f3" type="email" name="email" required/>
+                <label for="phone_f3" required>Phone <sup>*</sup></label>
+                <input type="tel" name="phone_f3" maxlength="10" />
+                <label for="subject_f2">Subject</label>
+                <select id="subject_f2" required>
+                  <option value="">
+                      select your subject
+                  </option>
+                  <option value="1">
+                      Advertise
+                  </option>
+                  <option value="2">
+                      General
+                  </option>
+                </select>
+            </fieldset>
 
-          <fieldset>
-            <legend>Message</legend>
-          </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <label for="message_f3">Message <sup>*</sup></label>
+                <textarea id="message_f3"></textarea>
+                <input type="submit" value="Submit" />
+            </fieldset>
         </form>
         <form id="f4">
 
