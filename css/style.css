@@ -98,6 +98,7 @@ sup {
 
 #f2 textarea {
     width: 60%;
+    min-height: 10em;
 }
 
 #f2 h1 {
@@ -162,7 +163,7 @@ sup {
 }
 
 /******** form 3 **********/
-#f3{
+#f3 {
     padding-top: 0.5em;
     padding-bottom: 0.1em;
     padding-right: 20%;
@@ -179,4 +180,50 @@ sup {
 }
 #f3 fieldset:first-child {
     margin-bottom: 1em;
+}
+
+#f3 legend {
+  font-weight: normal;
+  border: 2px solid #ffd2d2;
+  border-bottom: none;
+  padding: 1em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff4f4;
+}
+
+#f3 label {
+  display: inline-block;
+  width: 30%;
+  margin-top: 1em;
+}
+
+#f3 input, #f3 select {
+  display: inline-block;
+  width: 40%;
+  margin-right: 20%;
+  box-sizing: content-box;
+}
+
+#f3 fieldset :last-child {
+  margin-bottom: 2em;
+}
+
+#f3 textarea {
+  width: 50%;
+  margin-right: 10%;
+  min-height: 10em;
+}
+
+#f3 select {
+  color:#f17fb1;
+}
+
+#f3 input, #f3 select, #f3 textarea {
+  border-color: #f17fb1 0.2;
+  box-shadow: inset 1px 1px 2px #f17fb1;
+  background-color: rgba(251, 170, 214, 0.2);
+  border-style: solid;
+  border-radius: 5px
+
 }
