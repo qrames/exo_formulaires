@@ -88,6 +88,12 @@ sup {
     width: 40%;
     margin-right: 20%;
     border-radius: 5px;
+
+}
+
+#name_f2, #email_f2 {
+      opacity: 0.5;
+      box-shadow: 0 0 5px grey;
 }
 
 #f2 textarea {
@@ -103,7 +109,7 @@ sup {
     border: none;
 }
 
-#f2 input, #f2 select {
+#f2 input {
     line-height: 2em;
 }
 
@@ -111,7 +117,10 @@ sup {
     font-weight: bold;
     display: inline-block;
     width: 20%;
-    vertical-align: top;
+}
+
+#f2 label[for="message_f2"] {
+      vertical-align: top;
 }
 
 #f2 input[type="tel"] {
@@ -124,6 +133,7 @@ sup {
     background-color: rgb(171, 171, 171);
     color: rgb(171, 171, 171);
     border: none;
+    margin-bottom: 1.5em;
 }
 #f2 span{
     font-size: 2em;
@@ -134,8 +144,19 @@ sup {
     padding: 0.5em 1em;
     color: white;
     background-color: rgb(255, 130, 0);
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     margin-bottom: 0;
     margin-left: 20%;
+    margin-top: 1em;
+}
+
+#f2 select option {
+  padding: 1em;
+}
+
+#f2 select {
+  width: 20%;
+  margin-right: 40%;
+  background-color: rgb(198, 198, 198);
 }
