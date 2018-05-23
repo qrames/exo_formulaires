@@ -1,22 +1,20 @@
-body{
-  background-color: rgb(126, 126, 126);
+body {
+    background-color: rgb(126, 126, 126);
 }
 
 main {
-  width: 50%;
-  margin: 1% auto;
-
+    width: 50%;
+    margin: 1% auto;
 }
 
-form
-{
+form {
     background-color: white;
     margin-bottom: 20px;
 }
 
 /******** form 1 **********/
-#f1
-{
+
+#f1 {
     padding-left: 5%;
     padding-right: 30%;
     padding-top: 5%;
@@ -24,108 +22,120 @@ form
 }
 
 #f1 label {
-  font-weight: bold;
-  display: block;
-
+    font-weight: bold;
+    display: block;
 }
-sup
-{
+
+sup {
     color: red;
 }
-#email_f1, #subject_f1, #message_f1
-{
+
+#email_f1, #subject_f1, #message_f1 {
     width: 100%;
     box-sizing: border-box;
 }
-#firstName_f1, #lastName_f1
-{
+
+#firstName_f1, #lastName_f1 {
     box-sizing: border-box;
     width: 49%;
 }
 
-#f1 select
-{
+#f1 select {
     background-color: rgb(139, 139, 139);
     padding: 0.75em;
     color: black;
 }
 
 #f1 input, #f1 select, #f1 textarea {
-  margin-bottom: 1em;
-  margin-top:0.2em;
-  border-radius: 0;
-  border: solid 1px grey;
-
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+    border-radius: 0;
+    border: solid 1px grey;
 }
 
 #f1 input {
-  padding:0.75em;
+    padding: 0.75em;
 }
 
 #f1 textarea {
-  max-width: 100%;
-  min-height: 10em;
+    max-width: 100%;
+    min-height: 10em;
 }
 
 #f1 input[type="submit"] {
-  padding: 0.5em 1em;
-  color: white;
-  background-color: rgb(93, 131, 148);
-  margin-bottom: 0;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: rgb(93, 131, 148);
+    margin-bottom: 0;
 }
 
 /******** form 2 **********/
-#f2
-{
+
+#f2 {
     padding-left: 5%;
     padding-right: 15%;
     padding-top: 1%;
     padding-bottom: 0.5%;
 }
+
 #name_f2, #email_f2, #phone_f2, #f2 select {
     position: static;
     display: inline-block;
     box-sizing: content-box;
     margin-bottom: 1em;
-    margin-top:0.2em;
+    margin-top: 0.2em;
     border: solid 1px grey;
-    width: 60%;
+    width: 40%;
+    margin-right: 20%;
     border-radius: 5px;
-
 }
 
-#f2 h1
-{
-  font-weight: bold;
-  font-style: italic;
+#f2 textarea {
+    width: 60%;
 }
 
-#phone_f2
-{
-  border: none;
+#f2 h1 {
+    font-weight: bold;
+    font-style: italic;
 }
 
-#f2 input , #f2 select
-{
-  line-height: 2em;
+#phone_f2 {
+    border: none;
+}
+
+#f2 input, #f2 select {
+    line-height: 2em;
 }
 
 #f2 label {
-  font-weight: bold;
-  display: inline-block;
-  width: 20%;
+    font-weight: bold;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
 }
 
-#f2 input[type="tel"]
- {
-   width: 5%
- }
+#f2 input[type="tel"] {
+    width: 10%;
+}
 
-#f2 hr
-{
-  opacity: 0.5;
-  height: 2px;
-  background-color: rgb(171, 171, 171);
-  color: rgb(171, 171, 171);
-  border: none;
+#f2 hr {
+    opacity: 0.5;
+    height: 2px;
+    background-color: rgb(171, 171, 171);
+    color: rgb(171, 171, 171);
+    border: none;
+}
+#f2 span{
+    font-size: 2em;
+
+}
+#f2 input[type="submit"] {
+    display: block;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: rgb(255, 130, 0);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 0;
+    margin-left: 20%;
 }
