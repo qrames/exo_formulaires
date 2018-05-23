@@ -227,3 +227,18 @@ sup {
   border-radius: 5px
 
 }
+
+#f3 input[type="submit"] {
+    display: block;
+    padding: 0.5em 1em;
+    margin-bottom: 0;
+    margin-left: 30%;
+    margin-top: 1em;
+}
+
+#f3 select option {
+  padding: 1em;
+}
+#f3 label[for="message_f3"] {
+      vertical-align: top;
+}
