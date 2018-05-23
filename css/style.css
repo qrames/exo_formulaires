@@ -28,7 +28,7 @@ form
   display: block;
 
 }
-#f1 sup
+sup
 {
     color: red;
 }
@@ -79,22 +79,53 @@ form
 {
     padding-left: 5%;
     padding-right: 15%;
-    padding-top: 5%;
+    padding-top: 1%;
     padding-bottom: 0.5%;
 }
-#name_f2, #email_f2, #phone_f2, #f2 select, #f2 textarea {
+#name_f2, #email_f2, #phone_f2, #f2 select {
     position: static;
     display: inline-block;
     box-sizing: content-box;
     margin-bottom: 1em;
     margin-top:0.2em;
     border: solid 1px grey;
-    width: 75%;
+    width: 60%;
+    border-radius: 5px;
 
+}
+
+#f2 h1
+{
+  font-weight: bold;
+  font-style: italic;
+}
+
+#phone_f2
+{
+  border: none;
+}
+
+#f2 input , #f2 select
+{
+  line-height: 2em;
 }
 
 #f2 label {
   font-weight: bold;
   display: inline-block;
-  width: 23%;
+  width: 20%;
+}
+
+#f2 input[type="tel"]
+ {
+   width: 5%
+ }
+
+#f2 hr
+{
+  opacity: 0.5;
+  height: 2px;
+  background-color: rgb(171, 171, 171);
+  color: rgb(171, 171, 171);
+  border: none;
 }
